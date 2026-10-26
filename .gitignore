@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local Database
+*.sqlite3
+db.sqlite3
+
+# Local media uploads & photos
+backend/media/
+backend/attendance/
+
+# Local secrets and runtime files
+.env
+.env.*
+!.env.example
+*.log
+.venv/
+venv/
+**/service-account*.json
+**/firebase-adminsdk*.json
+*.pem
+*.key
+
+# Android build outputs & APKs
+*.apk
+frontend/build/
+.gradle/
+local.properties
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Temporary test/debug files & scratch scripts
+render_error.html
+scratch_scripts/
+frontend/Run
